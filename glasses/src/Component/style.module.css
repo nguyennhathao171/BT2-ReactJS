@@ -1,0 +1,43 @@
+*{
+    /* width: 100%; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    background-image: url(../asset/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 1280px; */
+    display: flex;
+    flex-direction:column ;
+}
+
+
+.header{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    /* border: 0.2px solid gray; */
+    background-color: rgba(0, 0, 0, 0.51);
+    font-weight: 100;
+    padding: 30px;
+}
+
+.Comp{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+}
+
+.origin{
+margin-left: 200px;
+}
+
+.change{
+ margin-right: 200px;
+}
+
+.choose{
+    
+}
